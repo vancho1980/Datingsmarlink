@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet New People Nearby</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            max-width: 420px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px 20px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px 25px;
+        }
+
+        .content h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        .content p {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .features {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .feature span {
+            background: #667eea;
+            color: white;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 50px;
+            font-size: 17px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+        }
+
+        .footer {
+            padding: 15px;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Meet Someone New</h1>
+            <p>Connect with people nearby</p>
+        </div>
+
+        <div class="content">
+            <h2>Looking for real conversations?</h2>
+            <p>Join thousands of singles who are tired of empty chats and ready to meet interesting people.</p>
+
+            <div class="features">
+                <div class="feature">
+                    <span>✓</span>
+                    Free to start chatting
+                </div>
+                <div class="feature">
+                    <span>✓</span>
+                    People from your area
+                </div>
+                <div class="feature">
+                    <span>✓</span>
+                    Safe and easy to use
+                </div>
+            </div>
+
+            <!-- Твоя ссылка -->
+            <a href="https://zlmnv.dlstinguishedate.net/?utm_source=da57dc555e50572d&ban=other&j1=1&s1=16487&s2=1992687" 
+               class="btn" 
+               rel="noopener noreferrer">
+                Continue
+            </a>
+        </div>
+
+        <div class="footer">
+            18+ only. By continuing you agree to the terms.
+        </div>
+    </div>
+</body>
+</html>
